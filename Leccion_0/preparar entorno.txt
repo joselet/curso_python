@@ -1,0 +1,9 @@
+python -m venv venv
+llama al modulo venv (entorno virtual) y genera un entorno virtual con nombre "venv"
+
+a continuación llamar al script de activación que ha generado python.
+p.ej. 
+venv\Scripts\activate.bat
+
+Y después para salir del entorno virtual:
+deactivate
