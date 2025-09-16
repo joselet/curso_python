@@ -1,9 +1,12 @@
 python -m venv venv
-llama al modulo venv (entorno virtual) y genera un entorno virtual con nombre "venv"
+Esto llama al modulo venv (entorno virtual) y genera un entorno virtual con nombre "venv"
 
 a continuación llamar al script de activación que ha generado python.
 p.ej. 
 venv\Scripts\activate.bat
+
+Ahora podemos instalar todas las dependencias que queramos. Ello irá a un fichero requirements que puede servir para distribuir la aplicación y sus requerimientos facilmente en el entorno de otro usuario o maquina.
+
 
 Y después para salir del entorno virtual:
 deactivate
