@@ -38,3 +38,17 @@ diccionario = {
 print (diccionario)
 diccionario["profesion"]=input("Dame la profesión: ")
 print(diccionario)
+
+input ("pulsa enter para ejercicio 3. Conjuntos ")
+numeros =set()
+for i in range (5):
+    try:
+        numeros.add( int(input ("Dame un número: ")) )
+    except:
+        numeros.add(0)
+print (numeros)
+
+
+input ("pulsa enter para ejercicio 4. Comprehensions ")
+cuadrados_de_pares = [x**2 for x in range(1, 21) if x % 2 == 0]
+print(cuadrados_de_pares)
